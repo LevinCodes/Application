@@ -1,0 +1,23 @@
+
+body {
+  background: rgb(131,29,193);
+  background: linear-gradient(90deg, rgba(131,29,193,1) 22%, rgba(13,164,195,1) 100%);
+  margin-left: 42%;
+  margin-right: 58%;
+  margin-top: 8%;
+  overflow: hidden;
+}
+h1 {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: monospace;
+  letter-spacing: 4px;
+  margin-left: 10px
+}
+.unselectable {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
